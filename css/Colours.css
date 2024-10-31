@@ -1,0 +1,130 @@
+body{
+
+    background-color: #6840c0;
+    margin: 0px;
+
+}
+
+h1{
+
+    text-align: center;
+    color: lightblue;
+    background-color: #4a2e8a;
+    padding: 15px;
+    margin: 0px;
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h2{
+
+    text-align: center;
+    color: #add8e6;
+    background-color: #5d39ac;
+    padding: 15px;
+    margin: 0px;
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+p{
+
+    background-color: #6840c0;
+    color: lightblue;
+    text-align: left;
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    margin: 0px;
+    
+}
+
+div{
+
+background-color: #5d39ac;
+padding: 10px;
+margin: 0px;
+
+}
+
+.carousel{
+
+    text-align: center;
+
+}
+
+.carousel-indicators{
+
+    bottom: -50px;
+
+}
+
+.carousel-control-prev{
+
+    margin-left: -65px;
+
+}
+
+.carousel-control-next{
+
+    margin-right: -65px;
+
+}
+
+nav{
+
+    background-color: #5d39ac; 
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav a{
+
+    text-decoration: wavy;
+    padding: 25px;
+    color: lightblue;
+
+}
+
+nav a:hover{
+
+    color: #6b868f;
+
+}
+
+a:link{
+
+    color: #6b868f;
+
+}
+
+a:hover{
+
+    color: #79c8e2;
+
+}
+
+a:visited{
+
+    color: #2d1c55;
+
+}
+
+
+
+
+
+
+
