@@ -1,124 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Morioh - About </title>
 
-    <link rel="stylesheet" href="css/Styling.css">
-
-
+    <title>Intro to Javascript</title>
 
     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/build.css">
 
     <!-- jQuery library -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-    
-    <!-- Popper JS -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    
-    <!-- Latest compiled JavaScript -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Syne+Mono&display=swap" rel="stylesheet">
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
-<header>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 text-left">
-                <h1> <b> ~ Morioh-Cho, Japan ~ </b> </h1>
+<body>
+
+    <!----------------------------- Header -------------------------------------------->
+    <header class="bg-main">
+        <div class="container">
+            <div class="row align-items-center customHeight">
+                <div class="col-sm-6 text-white">
+                    <h1>Learning JavaScript</h1>
+                    <p>Interactivity for the Modern Web</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div id="column1" class="col-sm-8 mx-auto bg-main p-5 text-white">
+                    <!---------------------The column where things will change!----------------------->
+                    <h3 class="text-center py-3">We Built This City!</h3>
+
+                    <!-- Form with only a button that will call a Javascript function -->
+                   <form action="javascript:buildOne();">
+
+                    <button type="submit" class="btn btn-outline-light btn-block"> One </button>
+
+                   </form>
+                    
+
+                    <!-- Form with only a button that will call a different Javascript function -->
+
+                    <form action="javascript:buildTwo();">
+
+                        <button type="submit" class="btn btn-outline-light btn-block"> Two </button>
+    
+                       </form>
+                    
+                    <!-- Form with only a button that will call a third Javascript function -->
+                    
+                    <form action="javascript:buildThree();">
+
+                        <button type="submit" class="btn btn-outline-light btn-block"> Three </button>
+    
+                       </form>
+
+                       <form action="javascript:buildFour();">
+
+                        <button type="submit" class="btn btn-outline-light btn-block"> Jotaro?! </button>
+    
+                       </form>
+
+                    <!-- Div that will display a message about how many buildings the user put into the city -->
+                    <div id="city" class="my-3"> </div>
+
+                    <!-- Div that will display the buildings the user put into the city -->
+                    <div id="cityGraphic" class="bg_city p-5"></div>
+
+                </div>
 
             </div>
         </div>
-    </div>
-
-</header>
-
-<!-- A grey horizontal navbar that becomes vertical on small screens -->
-<nav class="navbar navbar-expand-md navbar-dark">
-    <!-- Brand -->
-    <a class="navbar-brand" href="#"> Navigation: </a>
-  
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html"> Home </a>
-        </li>
-  
-        <li class="nav-item">
-          <a class="nav-link" href="geography.html"> Geography </a>
-        </li>
-  
-        <li class="nav-item">
-          <a class="nav-link" href="people.html"> People </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="economy.html"> Economy </a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="attractions.html"> Attractions </a>
-          </li>
-  
-      </ul>
-    </div>
-  </nav>
+    </section>
 
 
+    <!---------------------Your Custom Javascript----------------------->
 
-
-
-<section>
-
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-sm-6 mx-auto">
-  
-          <h2> <b> Good morning, Morioh! </b> </h2>
-          <p> Welcome to the coastal, quaint town of the S city in Japan! </p>
-  
-            <img class="img-fluid" src="images/Morioh-Cho.webp" alt="Morioh Moment">
-  
-  
-  
-        </div>
-      </div>
-    </div>
-  
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-sm-6 mx-auto">
-  
-          <h2> <b> About </b> </h2>
-          <p> Sendai itself is huge, but Morioh's smaller, peaceful vibe gives you a little break from the hustle of big-city life to relax along the suburb's friendly population and enjoy a coffee or two in one of the local cafes, or even one of its many landmarks. The S city and its M Prefecture aren't too far from the suburbs itself, so it's as if a town set in a TV drama was right around the corner if you wished to visit! </p>
-  
-  
-  
-        </div>
-      </div>
-    </div>
-  
-
-</section>
-
-
-<body>
+    <script src="js/build.js"></script>
     
 </body>
+
 </html>
