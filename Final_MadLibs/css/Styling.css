@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Pacifico&display=swap');
+
+header{
+
+    background-image: url("../images/Ocean2.jpg");
+
+    background-size: cover;
+
+    color: #5df0cb;
+
+    text-align: center;
+
+
+
+    font-family: "Pacifico", cursive;
+
+
+
+
+}
+
+
+.customHeight{
+
+    height: 40vh;
+
+}
+
+section{
+
+    background-color: #dac5ab;
+
+    font-family: "DynaPuff", system-ui;
+
+    width: 70vw;
+
+    margin: auto;
+    
+
+}
+
+body{
+
+    background-image: url(../images/Ocean.jpg);
+
+}
